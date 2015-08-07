@@ -6,7 +6,7 @@ Simple Node.js web application based on instagram API.
 	```
 	npm install
 	```
-2. Start application
+2. Start application:
 	```
 	node server.js
 	```
