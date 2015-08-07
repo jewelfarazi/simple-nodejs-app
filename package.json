@@ -1,13 +1,20 @@
 {
-  "name": "simple-mean-app",
+  "name": "simple-nodejs-app",
   "version": "1.0.0",
-  "description": "Simple MEAN stack app based on instagram API.",
+  "description": "Simple Node.js web application based on instagram API.",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "jewel farazi",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jewelfarazi/simple-nodejs-app"
+  },
+  "engines": {
+    "node": "0.12.x",
+    "npm": "2.11.x"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "ejs": "^2.3.3",
     "express": "^4.13.3",
