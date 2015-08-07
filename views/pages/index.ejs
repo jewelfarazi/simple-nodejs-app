@@ -15,17 +15,18 @@
 		<div class="row">
 			<% grams.forEach(function(gram) { %>
 			<div class="instagram-pic col-sm-3">
-				
+				<!-- Showing image from api value -->
 				<a href="<%= gram.link %>" target="_blank">
 					<img src="<%= gram.images.standard_resolution.url %>" class="img-responsive">
 				</a>
-
+				
 				<div class="instagram-bar">
+					<!-- Floating likes count on the left bottom -->
 					<div class="likes">
 						<span class="glyphicon glyphicon-heart"></span>
 						<%= gram.likes.count %>
 					</div>
-
+					<!-- Floating comments count on the right bottom -->
 					<div class="comments">
 						<span class="glyphicon glyphicon-comment"></span>
 						<%= gram.comments.count %>
