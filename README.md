@@ -1,5 +1,5 @@
 # simple-nodejs-app
-Simple Node.js web application based on instagram API.
+Simple Node.js web application based on instagram API which will show daily popular images.
 
 ## Usage:
 1. Install dependencies:
